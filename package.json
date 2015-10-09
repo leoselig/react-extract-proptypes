@@ -1,0 +1,45 @@
+{
+  "name": "react-extract-proptypes",
+  "version": "0.0.1",
+  "description": "Runtime extraction of propTypes for React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoselig/react-extract-proptypes.git"
+  },
+  "keywords": [
+    "react",
+    "proptypes",
+    "doc",
+    "docgen"
+  ],
+  "author": "Leo Selig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoselig/react-extract-proptypes/issues"
+  },
+  "homepage": "https://github.com/leoselig/react-extract-proptypes#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-junit-reporter": "^0.3.7",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.1.1",
+    "karma-sinon-chai": "^1.1.0",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.3",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "react": "^0.14.0"
+  }
+}
